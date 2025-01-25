@@ -17,7 +17,7 @@
 - **7zip** (se instala automáticamente si no está presente).
 
 ## Instalación:
-1. Descarga el instalador desde el [repositorio de releases](#).
+1. Descarga el instalador desde el [releases](#).
 2. Ejecuta el instalador y sigue los pasos de instalación.
 3. El instalador configurará **FFmpeg** y **7zip** automáticamente si no los tienes instalados.
 4. El programa creará un acceso directo en el escritorio para iniciar el conversor de video.
