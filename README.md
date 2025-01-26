@@ -1,4 +1,4 @@
-# Zta Converter - Conversor de Archivos de Video
+# Zta Converter - Conversor de Video/audio/imagenes
 
 **Zta Converter** es una herramienta de conversión de archivos de video de código abierto que permite convertir fácilmente archivos entre diferentes formatos, ajustar la resolución, el FPS y la calidad de los videos utilizando **FFmpeg**. El programa tiene una interfaz gráfica intuitiva creada con **CustomTkinter** que facilita su uso incluso para usuarios sin experiencia técnica.
 
