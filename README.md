@@ -1,6 +1,7 @@
 # 🎬 Zta Converter - Conversor de Video/Audio/Imágenes  
 
 Zta Converter es una herramienta de conversión de archivos de código abierto que permite convertir fácilmente **videos, audios e imágenes** entre diferentes formatos. Ofrece opciones avanzadas para **ajustar la resolución, el FPS y la calidad**, utilizando FFmpeg. Ahora incluye un **Launcher** centralizado que facilita la gestión de las conversiones desde una interfaz moderna e intuitiva creada con CustomTkinter.  
+![Captura de pantalla 2025-01-26 103101](https://github.com/user-attachments/assets/171da886-8f64-42ac-b455-90d64af673b4)
 
 ---
 
