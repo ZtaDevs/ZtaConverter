@@ -8,8 +8,10 @@ Zta Converter es una herramienta de conversión de archivos de código abierto q
 ## 🚀 Novedades en esta versión
 - 📌 **Nuevo Launcher**: permite acceder rápidamente a los convertidores de imágenes, video y audio.  
 - ⚡ **Mayor integración con FFmpeg** para conversiones más rápidas y optimizadas.  
-- 🔧 **Eliminación del uso de terminal** en la ejecución de los convertidores `.exe`.  
+- 🛠️ **Eliminación del uso de terminal** en la ejecución de los convertidores `.exe`.  
 - 🎨 **Interfaz renovada**, más intuitiva y moderna.  
+- 🖼️ **Nuevo editor de imágenes**: ahora puedes recortar, redimensionar y aplicar filtros básicos antes de convertir.  
+- 🔄 **Conversión por lotes** mejorada: ahora permite convertir múltiples archivos simultáneamente.  
 
 ---
 
@@ -26,6 +28,8 @@ Zta Converter es una herramienta de conversión de archivos de código abierto q
 ✅ **Visualización del progreso en tiempo real**.  
 ✅ **Estimación del tamaño del archivo de salida**.  
 ✅ **Instalación automática de dependencias** como FFmpeg y 7zip.  
+✅ **Nuevo editor de imágenes**: recorte, redimensión y filtros básicos antes de convertir.  
+✅ **Conversión por lotes** mejorada para mayor eficiencia.  
 
 ---
 
@@ -37,7 +41,7 @@ Zta Converter es una herramienta de conversión de archivos de código abierto q
 
 ---
 
-## 📥 Instalación
+## 👅 Instalación
 1. Descarga el instalador desde el directorio de **Releases**.  
 2. Ejecuta el instalador y sigue los pasos de instalación.  
 3. El instalador configurará **FFmpeg y 7zip automáticamente** si no los tienes instalados.  
@@ -50,8 +54,9 @@ Zta Converter es una herramienta de conversión de archivos de código abierto q
 2. Selecciona el **convertidor** que deseas utilizar: **Imagen, Video o Audio**.  
 3. Elige el archivo de entrada.  
 4. Configura el formato de salida, FPS, calidad y resolución.  
-5. Haz clic en **"Convertir"** y espera mientras se procesa el archivo.  
-6. El **progreso de la conversión** se mostrará en tiempo real.  
+5. Si estás convirtiendo imágenes, usa el **editor** para hacer ajustes antes de exportar.  
+6. Haz clic en **"Convertir"** y espera mientras se procesa el archivo.  
+7. El **progreso de la conversión** se mostrará en tiempo real.  
 
 ---
 
@@ -60,6 +65,7 @@ Zta Converter es una herramienta de conversión de archivos de código abierto q
 - **CustomTkinter** para la interfaz gráfica moderna.  
 - **FFmpeg** para la conversión de videos y audios.  
 - **7zip** para la extracción de archivos comprimidos.  
+- **Pillow** para la edición básica de imágenes.  
 
 ---
 
