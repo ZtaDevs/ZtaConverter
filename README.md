@@ -56,7 +56,7 @@ Zta Converter es una herramienta de conversión de archivos de código abierto q
 2. Selecciona el **convertidor** que deseas utilizar: **Imagen, Video o Audio**.  
 3. Elige el archivo de entrada.  
 4. Configura el formato de salida, FPS, calidad y resolución.  
-5. Si estás convirtiendo imágenes, usa el **editor** para hacer ajustes antes de exportar.  
+5. Usa el **editor** para hacer ajustes variados como filtros y efectos.  
 6. Haz clic en **"Convertir"** y espera mientras se procesa el archivo.  
 7. El **progreso de la conversión** se mostrará en tiempo real.  
 
