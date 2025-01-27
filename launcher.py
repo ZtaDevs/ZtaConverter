@@ -1,11 +1,10 @@
 import os
 import subprocess
 import customtkinter as ctk
-
+from themes.theme_config import ThemeConfig
 class ZtaConverter:
     def __init__(self, root):
-        ctk.set_appearance_mode("System")  # Modo oscuro/claro automático
-        ctk.set_default_color_theme("blue")
+        ThemeConfig.apply_theme()
 
         self.root = root
         self.root.title("ZtaConverter")
@@ -20,13 +19,17 @@ class ZtaConverter:
         self.title_label.pack(pady=20)
 
         # Botones del menú
-        self.image_button = ctk.CTkButton(self.sidebar, text="Convertir Imágenes",
+        self.image_button = ctk.CTkButton(self.sidebar, text="Abrir Image Converter",
                                           command=self.run_image_converter, height=40)
         self.image_button.pack(pady=10, fill="x", padx=10)
 
-        self.media_button = ctk.CTkButton(self.sidebar, text="Convertir Videos/Audio",
+        self.media_button = ctk.CTkButton(self.sidebar, text="Abrir Video Converter",
                                           command=self.run_media_converter, height=40)
         self.media_button.pack(pady=10, fill="x", padx=10)
+
+        self.editor_button = ctk.CTkButton(self.sidebar, text="Abrir Image Editor",
+                                           command=self.run_image_editor, height=40)
+        self.editor_button.pack(pady=10, fill="x", padx=10)
 
         self.exit_button = ctk.CTkButton(self.sidebar, text="Salir",
                                          command=self.root.quit, height=40)
@@ -59,7 +62,10 @@ class ZtaConverter:
         media_converter_path = os.path.join(os.getcwd(), "media_converter", "media_converter.py")
         subprocess.Popen(["python", media_converter_path], creationflags=subprocess.CREATE_NO_WINDOW)
 
-
+    def run_image_editor(self):
+        """ Ejecuta el Editor de Imágenes. """
+        image_editor_path = os.path.join(os.getcwd(), "image_editor/image_editor.py")
+        subprocess.Popen(["python", image_editor_path], creationflags=subprocess.CREATE_NO_WINDOW)
 
 if __name__ == "__main__":
     root = ctk.CTk()
