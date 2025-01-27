@@ -10,8 +10,10 @@ Zta Converter es una herramienta de conversión de archivos de código abierto q
 - ⚡ **Mayor integración con FFmpeg** para conversiones más rápidas y optimizadas.  
 - 🛠️ **Eliminación del uso de terminal** en la ejecución de los convertidores `.exe`.  
 - 🎨 **Interfaz renovada**, más intuitiva y moderna.  
-- 🖼️ **Nuevo editor de imágenes**: ahora puedes recortar, redimensionar y aplicar filtros básicos antes de convertir.  
-- 🔄 **Conversión por lotes** mejorada: ahora permite convertir múltiples archivos simultáneamente.  
+- 🖼️ **Nuevo editor de imágenes**: ahora puedes recortar, redimensionar y aplicar filtros básicos antes de convertir.
+
+![Captura de pantalla 2025-01-27 154621](https://github.com/user-attachments/assets/61f7c515-5c66-4125-abc3-b2026393678b)
+
 
 ---
 
