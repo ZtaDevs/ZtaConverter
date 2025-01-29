@@ -1,4 +1,4 @@
-import os
+import os, sys
 import subprocess
 from tkinter import filedialog, StringVar, messagebox, Tk
 import customtkinter as ctk
@@ -9,9 +9,9 @@ import time
 
 
 class ImageConverterApp:
-    def __init__(self, root):
-        ctk.set_appearance_mode("System")
-        ctk.set_default_color_theme("blue")
+    def __init__(self, root, theme_appearance, color_theme):
+        ctk.set_appearance_mode(theme_appearance)  # 'Dark', 'Light', 'System'
+        ctk.set_default_color_theme(color_theme)
 
         self.root = root
         self.root.title("Zta Image Converter")
@@ -128,6 +128,8 @@ class ImageConverterApp:
 
 
 if __name__ == "__main__":
+    theme_appearance = sys.argv[1] if len(sys.argv) > 1 else "System"  # Default: 'System'
+    color_theme = sys.argv[2] if len(sys.argv) > 2 else "blue"  # Default: 'blue'
     root = ctk.CTk()
-    app = ImageConverterApp(root)
+    app = ImageConverterApp(root, theme_appearance, color_theme)
     root.mainloop()

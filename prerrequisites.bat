@@ -43,7 +43,6 @@ IF %ERRORLEVEL% NEQ 0 (
 
 :: Finalización
 echo Todo listo. Puedes ejecutar tu aplicación ahora.
-pause
 exit /b
 
 :install_python
